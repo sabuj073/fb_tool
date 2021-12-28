@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteRule \.(css|jpe?g|gif|png|js|ico)$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^app-intigration$ app-intigration.php [L]
+RewriteRule ^new-space$ new-space.php [L]
+RewriteRule ^workspace$ workspace.php [L]
+RewriteRule ^blog-details/(.*)$ blog_details.php?slug=$1 [L]
+
+

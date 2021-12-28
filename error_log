@@ -1,0 +1,31 @@
+[27-Jul-2021 16:47:53 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Failed to create FacebookFile entity. Unable to read resource: /tmp/phpFriupg. in /home/iftimbma/shop.iftisoft.com/vendor/facebook/graph-sdk/src/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/iftimbma/shop.iftisoft.com/vendor/facebook/graph-sdk/src/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/iftimbma/shop.iftisoft.com/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(559): Facebook\FileUpload\FacebookFile->__construct('/tmp/phpFriupg')
+#2 /home/iftimbma/shop.iftisoft.com/workspace.php(220): Facebook\Facebook->fileToUpload('/tmp/phpFriupg')
+#3 {main}
+  thrown in /home/iftimbma/shop.iftisoft.com/vendor/facebook/graph-sdk/src/Facebook/FileUpload/FacebookFile.php on line 88
+[27-Jul-2021 16:53:57 America/New_York] PHP Notice:  Undefined variable: con in /home/iftimbma/shop.iftisoft.com/workspace.php on line 44
+[27-Jul-2021 16:53:57 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/iftimbma/shop.iftisoft.com/workspace.php on line 44
+[27-Jul-2021 17:26:18 America/New_York] PHP Notice:  Undefined variable: con in /home/iftimbma/shop.iftisoft.com/workspace.php on line 41
+[27-Jul-2021 17:26:18 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/iftimbma/shop.iftisoft.com/workspace.php on line 41
+[27-Jul-2021 17:26:18 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 56
+[27-Jul-2021 17:26:18 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 57
+[27-Jul-2021 17:26:21 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 56
+[27-Jul-2021 17:26:21 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 57
+[27-Jul-2021 17:26:23 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 56
+[27-Jul-2021 17:26:23 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 57
+[27-Jul-2021 17:26:25 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 56
+[27-Jul-2021 17:26:25 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 57
+[27-Jul-2021 17:35:55 America/New_York] PHP Notice:  Undefined variable: con in /home/iftimbma/shop.iftisoft.com/workspace.php on line 41
+[27-Jul-2021 17:35:55 America/New_York] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/iftimbma/shop.iftisoft.com/workspace.php on line 41
+[27-Jul-2021 17:35:55 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 56
+[27-Jul-2021 17:35:55 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 57
+[27-Jul-2021 17:35:57 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 56
+[27-Jul-2021 17:35:57 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 57
+[27-Jul-2021 17:35:59 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 56
+[27-Jul-2021 17:35:59 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 57
+[27-Jul-2021 17:36:01 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 56
+[27-Jul-2021 17:36:01 America/New_York] PHP Notice:  Undefined variable: date in /home/iftimbma/shop.iftisoft.com/workspace.php on line 57
+[27-Jul-2021 17:37:32 America/New_York] PHP Notice:  Undefined index: message in /home/iftimbma/shop.iftisoft.com/workspace.php on line 157
+[27-Jul-2021 17:38:03 America/New_York] PHP Notice:  Undefined variable: media_id in /home/iftimbma/shop.iftisoft.com/workspace.php on line 211
